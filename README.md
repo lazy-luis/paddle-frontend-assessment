@@ -17,7 +17,7 @@ This project is created in accordance with the [Paddle Frontend Assessment](http
 
 **Steps**
 
-- Clone Repo From [Github]()
+- Clone Repo From [Github](https://github.com/lazy-luis/paddle-frontend-assessment)
 - Open Terminal
 - Navigate To Cloned Repo Folder
 - Run **npm install** to reinstall dependencies
