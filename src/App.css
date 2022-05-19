@@ -5,6 +5,7 @@
   margin: 0;
   text-decoration: none;
   outline: none;
+  border: none;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -43,6 +44,7 @@ header .header-links button {
   font-size: .9rem;
   color: #ffffff;
   font-weight: 400;
+  cursor: pointer;
 }
 
 header .header-links button {
@@ -52,4 +54,151 @@ header .header-links button {
   text-align: center;
   box-shadow: 0px 0px 10px #09090991;
   border-radius: 50px;
+}
+
+.ComingSoon {
+  display: block;
+  width: 45%;
+  margin: 9vh auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ComingSoon h1 {
+  font-size: 2.5rem;
+}
+
+.ComingSoon h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.ComingSoon h3 span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.ComingSoon .CountdownTimer {
+  display: flex;
+  width: 100%;
+  margin: 30px auto 40px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.ComingSoon .CountdownTimer .CountdownBlock {
+  width: 20%;
+  padding: 30px 10px;
+  background: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+  color: #000000;
+}
+
+.ComingSoon .CountdownTimer .CountdownBlock p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.ComingSoon .CountdownTimer .CountdownBlock label {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.ComingSoon .WaitingList {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.ComingSoon .WaitingList .WaitingListInputs {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ComingSoon .WaitingList .WaitingListInputs input {
+  width: 35%;
+  margin: 10px 0;
+  border-bottom: 2px solid #f6f7f93b;
+  background: transparent;
+  color: #707070;
+  font-size: .8rem;
+  padding: 5px 8px 8px 10px;
+}
+
+.ComingSoon .WaitingList .WaitingListMailBtn {
+  background: #ffffff;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 51px;
+}
+
+.ComingSoon .WaitingList .WaitingListMailBtn input {
+  background: #ffffff;
+  width: 55%;
+  font-weight: 300;
+}
+
+.ComingSoon .WaitingList .WaitingListMailBtn button {
+  background: #271AC1;
+  padding: 18px 24px;
+  border-radius: 51px;
+  width: 40%;
+  color: #ffffff;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px #09090991;
+}
+
+footer {
+  width: 100%;
+  display: block;
+}
+
+footer.ComingSoonFooter {
+  width: 100%;
+  margin: 10px auto 0;
+  background: #19073b59;
+  border-top: 1px solid #707070;
+  padding: 20px 0 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer .FooterSocials {
+  display: flex;
+  width: 20%;
+  margin: 5px auto 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.7rem;
+}
+
+footer .FooterLegal {
+  display: flex;
+  width: 20%;
+  margin: 5px auto 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .9rem;
+}
+
+footer .FooterLegal a {
+  color: #ffffff;
+}
+
+footer .FooterCopy {
+  font-size: .9rem;
 }
