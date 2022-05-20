@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { BsYoutube } from "react-icons/bs";
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const ComingSoon = () => {
   const [firstName, firstNameState] = useState("");
@@ -59,7 +62,25 @@ const ComingSoon = () => {
           </div>
         </div>
       </div>
-      <Footer ComingSoon={true} />
+      <footer className="ComingSoonFoot">
+        <div className="ComingSoonFooter"></div>
+        <div className="AllFooter">
+          <div className="FooterSocials">
+            <BsYoutube />
+            <FaFacebookSquare />
+            <FaLinkedin />
+            <RiInstagramFill />
+            <FaTwitterSquare />
+          </div>
+          <div className="FooterLegal">
+            <Link to={"#"}> Terms of services </Link>
+            <Link to={"#"}> Privacy policy </Link>
+          </div>
+          <div className="FooterCopy">
+            <p> Copyright 2021 @ Peddle Technologies. All Rights Reserved. </p>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };

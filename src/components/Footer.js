@@ -4,9 +4,9 @@ import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-const Footer = ({ ComingSoon = false }) => {
+const Footer = () => {
   return (
-    <footer className={ComingSoon ? "ComingSoonFooter" : ""}>
+    <footer>
       <div className="FooterSocials">
         <BsYoutube />
         <FaFacebookSquare />

@@ -160,11 +160,6 @@ header .header-links button {
 
 footer {
   width: 100%;
-  display: block;
-}
-
-footer.ComingSoonFooter {
-  width: 100%;
   margin: 10px auto 0;
   background: #19073b59;
   border-top: 1px solid #707070;
@@ -201,4 +196,31 @@ footer .FooterLegal a {
 
 footer .FooterCopy {
   font-size: .9rem;
+}
+
+footer.ComingSoonFoot {
+  width: 100%;
+  position: relative;
+  max-height: 200px;
+  border: none;
+  background: transparent;
+  overflow-y: hidden;
+}
+
+footer.ComingSoonFoot .ComingSoonFooter {
+  width: 90vw;
+  margin: 10px auto;
+  aspect-ratio: 1/1;
+  border-top: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  position: relative;
+  top: 0;
+}
+
+footer.ComingSoonFoot .AllFooter {
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
 }
