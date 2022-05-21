@@ -8,11 +8,21 @@ const Footer = () => {
   return (
     <footer>
       <div className="FooterSocials">
-        <BsYoutube />
-        <FaFacebookSquare />
-        <FaLinkedin />
-        <RiInstagramFill />
-        <FaTwitterSquare />
+        <a href="https://youtube.com">
+          <BsYoutube />
+        </a>
+        <a href="https://facebook.com">
+          <FaFacebookSquare />
+        </a>
+        <a href="https://linkedin.com">
+          <FaLinkedin />
+        </a>
+        <a href="https://instagram.com">
+          <RiInstagramFill />
+        </a>
+        <a href="htps://twitter.com">
+          <FaTwitterSquare />
+        </a>
       </div>
       <div className="FooterLegal">
         <Link to={"#"}> Terms of services </Link>
