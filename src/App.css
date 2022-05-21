@@ -158,6 +158,83 @@ header .header-links button {
   box-shadow: 0px 0px 10px #09090991;
 }
 
+.ContactBlurBack {
+  min-height: 100vh;
+  min-width: 100%;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  z-index: 25;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.ContactBlurBack .ContactForm {
+  width: 50%;
+  background: url("../public/assets/1.svg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.ContactBlurBack .ContactForm>button {
+  font-size: 1.4rem;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  padding: 16px 20px 13px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #271AC1;
+  aspect-ratio: 1/1;
+  position: relative;
+  top: 15px;
+  left: -30px;
+}
+
+.ContactBlurBack .ContactForm h3 {
+  text-align: center;
+  width: 80%;
+  margin: 2px auto 5px;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.ContactBlurBack .ContactForm form {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.ContactBlurBack .ContactForm form label {
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  margin: 5px 0;
+}
+
+.ContactBlurBack .ContactForm form input,
+.ContactBlurBack .ContactForm form textarea {
+  padding: 18px 22px;
+  border-radius: 15px;
+  font-size: .9rem;
+  width: 90%;
+  margin: 5px 0;
+  color: #000000;
+  resize: none;
+}
+
+.ContactBlurBack .ContactForm form button {
+  align-items: center;
+  margin: 10px 0;
+  display: block;
+  padding: 16px 50px;
+  font-weight: 1.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  background: #271AC1;
+  border-radius: 50px;
+}
+
 footer {
   width: 100%;
   margin: 10px auto 0;
@@ -205,6 +282,7 @@ footer.ComingSoonFoot {
   border: none;
   background: transparent;
   overflow-y: hidden;
+  z-index: 20;
 }
 
 footer.ComingSoonFoot .ComingSoonFooter {
@@ -216,6 +294,7 @@ footer.ComingSoonFoot .ComingSoonFooter {
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5px);
   position: relative;
+  z-index: 22;
   top: 0;
 }
 
@@ -223,4 +302,5 @@ footer.ComingSoonFoot .AllFooter {
   bottom: 10px;
   position: absolute;
   width: 100%;
+  z-index: 23;
 }

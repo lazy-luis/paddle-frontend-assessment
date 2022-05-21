@@ -4,14 +4,17 @@ import { BsYoutube } from "react-icons/bs";
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import Contact from "./Contact";
 
 const ComingSoon = () => {
   const [firstName, firstNameState] = useState("");
   const [lastName, lastNameState] = useState("");
   const [email, emailState] = useState("");
+  const [contactPhase, contactState] = useState(false);
   return (
     <>
-      <Header />
+      {contactPhase && <Contact contactChange={contactState} />}
+      <Header contactChange={contactState} />
       <div className="ComingSoon">
         <h1> SOMETHING AWESOME IS COMING SOON </h1>
         <h3>
