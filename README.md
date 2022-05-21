@@ -7,6 +7,7 @@ This project is created in accordance with the [Paddle Frontend Assessment](http
 **React Router Dom**
 **React Icons**
 **Axios**
+**React Infinite Scroll**
 
 ## Running The Application
 
