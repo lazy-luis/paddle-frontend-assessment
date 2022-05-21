@@ -1,0 +1,57 @@
+html,
+body {
+    background: #ffffff;
+    color: #000000;
+}
+
+.githubRepo {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 0 5px 30px;
+    margin: 8px 0;
+}
+
+.githubRepo .githubRepoUserAvatar img {
+    display: block;
+    width: 200px;
+    margin: 2px 14px;
+    border: 2px solid #000000;
+}
+
+.githubRepo .githubRepoInfo h5 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.githubRepo .githubRepoInfo h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.githubRepo .githubRepoInfo .githubRepoInfoExtras {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.githubRepo .githubRepoInfo .githubRepoInfoExtras p {
+    font-size: .9rem;
+    font-weight: 500;
+    border: 2px solid #000000;
+    display: inline-block;
+    margin: 6px 12px 6px 0;
+    text-align: center;
+    padding: 8px;
+}
+
+.githubRepo .githubRepoInfo .githubRepoInfoExtras label {
+    font-size: .9rem;
+    font-weight: 500;
+    margin: 6px 12px;
+}
