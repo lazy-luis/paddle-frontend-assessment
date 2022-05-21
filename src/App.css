@@ -463,3 +463,79 @@ footer.ComingSoonFoot .AllFooter {
   width: 100%;
   z-index: 23;
 }
+
+@media (max-width: 600px) {
+  header .header-logo {
+    width: 60%;
+  }
+
+  header .header-links {
+    display: none;
+  }
+
+  .ComingSoon {
+    display: block;
+    width: 95%;
+    margin: 9vh auto;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .ComingSoon .CountdownTimer .CountdownBlock {
+    width: 17%;
+    padding: 30px 8px;
+    background: #ffffff;
+    border-radius: 9px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .AboutPage .AboutHeader .AboutHeaderBackBlur {
+    width: 90%;
+  }
+
+  .AboutPage .AboutHeader .AboutHeaderBackBlur .AboutHeaderBackBlurContent {
+    left: 20px;
+  }
+
+  .AboutPage .AboutHeader .AboutHeaderBackBlur .AboutHeaderBackBlurContent p {
+    left: 40%;
+  }
+
+  .AboutPage .AboutContent h6 {
+    font-size: 2.5rem;
+    width: 95%;
+  }
+
+  .AboutPage .AboutContent .AboutContentFlex {
+    flex-direction: column;
+  }
+
+  .AboutPage .AboutContent .AboutContentFlex>* {
+    width: 100%;
+  }
+
+  .AboutPage .AboutContent .AboutContentFlex p {
+    width: 90%;
+  }
+
+  .GotAQuestion .GotAQuestionContent {
+    width: 95%;
+  }
+
+  .GotAQuestion p {
+    width: 90%;
+  }
+
+  footer.ComingSoonFoot .ComingSoonFooter {
+    width: 100vw;
+  }
+
+  footer .FooterSocials {
+    width: 70%;
+  }
+
+  footer .FooterLegal {
+    width: 70%;
+  }
+}

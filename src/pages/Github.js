@@ -47,7 +47,7 @@ const Github = () => {
   }, []);
 
   return (
-    <div>
+    <div className="GithubPage">
       <InfiniteScroll
         dataLength={githubRepos.length}
         next={getGithubRepo}

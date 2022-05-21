@@ -1,7 +1,5 @@
-html,
-body {
+.GithubPage {
     background: #ffffff;
-    color: #000000;
 }
 
 .githubRepo {
@@ -12,6 +10,8 @@ body {
     justify-content: flex-start;
     padding: 5px 0 5px 30px;
     margin: 8px 0;
+    background: #ffffff;
+    color: #000000;
 }
 
 .githubRepo .githubRepoUserAvatar img {
@@ -37,6 +37,7 @@ body {
     display: flex;
     width: 100%;
     align-items: center;
+    flex-direction: row;
     margin: 8px 0;
 }
 
@@ -52,6 +53,18 @@ body {
 
 .githubRepo .githubRepoInfo .githubRepoInfoExtras label {
     font-size: .9rem;
+    display: block;
     font-weight: 500;
     margin: 6px 12px;
+}
+
+@media (max-width: 600px) {
+    .githubRepo {
+        flex-direction: column;
+    }
+
+    .githubRepo .githubRepoInfo .githubRepoInfoExtras {
+        display: block;
+        margin-left: 0;
+    }
 }
